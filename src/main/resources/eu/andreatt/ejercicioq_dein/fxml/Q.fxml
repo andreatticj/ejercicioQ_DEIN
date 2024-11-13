@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+
+<fx:root type="GridPane" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints percentWidth="20" />
+        <ColumnConstraints percentWidth="20" />
+        <ColumnConstraints percentWidth="20" />
+        <ColumnConstraints percentWidth="20" />
+        <ColumnConstraints percentWidth="20" />
+    </columnConstraints>
+    <children>
+        <Label fx:id="minDecena" text="0" GridPane.columnIndex="0" />
+        <Label fx:id="minUnidad" text="0" GridPane.columnIndex="1" />
+        <Label text=":" GridPane.columnIndex="2" />
+        <Label fx:id="segDecena" text="0" GridPane.columnIndex="3" />
+        <Label fx:id="segUnidad" text="0" GridPane.columnIndex="4" />
+    </children>
+</fx:root>
